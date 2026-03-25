@@ -1,0 +1,33 @@
+let x = 10;
+let y = 12.647878;
+let b = 98e5;
+console.log(b);
+let c = 98e-5;
+console.log(c);
+let hex = 0xff;
+console.log(hex);
+// Number As Object.
+const num = new Number(20);
+console.log(num);
+let v = BigInt(9999876434354544323535434);
+console.log(v, typeof v);
+// Number Methods
+let ys = y.toString();
+console.log(ys, typeof ys);
+console.log(y.toExponential(3));
+console.log(y.toPrecision(2));
+console.log(parseInt("20"));
+console.log(parseInt("-20"));
+console.log(parseInt("20 10"));
+console.log(parseFloat("1.45"));
+console.log(parseFloat("-89 87"));
+console.log(Number.isInteger(20));
+console.log(Number.isInteger(20.7687));
+console.log(Number.isSafeInteger(345653265e623));
+console.log(Number.isSafeInteger(345));
+let t = Number.EPSILON;
+console.log(t);
+console.log(Number.isNaN("78"));
+let cx = BigInt(76732676e723676);
+console.log(Number.isNaN(90));
+console.log(Number.isNaN(cx));
